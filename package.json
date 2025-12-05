@@ -1,0 +1,21 @@
+{
+  "name": "schedulerpro-express-sqlite-backend",
+  "version": "1.0.0",
+  "description": "Express backend for Bryntum Scheduler Pro with SQLite and Sequelize",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node addExampleData.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
