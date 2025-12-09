@@ -185,6 +185,134 @@ app.delete('/api/products/delete', async(req, res) => {
     }
 });
 
+// Bryntum Grid endpoints
+app.get('/api/read', async(req, res) => {
+    try {
+        const products = await Product.findAll({
+            order: [['index', 'ASC']]
+        });
+
+        // Bryntum expects data in { success: true, data: [...] } format
+        res.status(200).json({
+            success: true,
+            data: products
+        });
+    }
+    catch (error) {
+        console.error({ error });
+        res.status(500).json({
+            success: false,
+            message: 'There was an error loading the products data.'
+        });
+    }
+});
+
+app.post('/api/create', async(req, res) => {
+    try {
+        const { data } = req.body;
+
+        if (!data || data.length === 0) {
+            return res.status(400).json({ success: false, message: 'No data provided' });
+        }
+
+        // Remove generated IDs from products
+        const productsToCreate = data.map(product => {
+            const { id, ...productData } = product; // Remove phantom id if present
+            return productData;
+        });
+
+        // Create new products with the index provided from the frontend
+        const createdProducts = await Product.bulkCreate(productsToCreate);
+
+        res.status(201).json({
+            success: true,
+            data: createdProducts
+        });
+    }
+    catch (error) {
+        console.error({ error });
+        res.status(500).json({
+            success: false,
+            message: 'There was an error creating the products.'
+        });
+    }
+});
+
+app.patch('/api/update', async(req, res) => {
+    try {
+        const { data } = req.body;
+
+        if (!data || data.length === 0) {
+            return res.status(400).json({ success: false, message: 'No data provided' });
+        }
+
+        // Use a transaction for atomicity
+        const updatedProducts = await sequelize.transaction(async (t) => {
+            const results = [];
+
+            for (const product of data) {
+                const { id, ...fields } = product;
+                const updated = await Product.findByPk(id, { transaction: t });
+
+                await Product.update(fields, {
+                    where: { id },
+                    transaction: t
+                });
+
+                // Fetch the updated product to return
+                results.push(updated);
+            }
+
+            return results;
+        });
+
+        res.status(200).json({
+            success: true,
+            data: updatedProducts
+        });
+    }
+    catch (error) {
+        console.error({ error });
+        res.status(500).json({
+            success: false,
+            message: 'There was an error updating the products.'
+        });
+    }
+});
+
+app.delete('/api/delete', async(req, res) => {
+    try {
+        // Bryntum sends ids in the request body
+        const { ids } = req.body;
+
+        if (!ids || ids.length === 0) {
+            return res.status(400).json({ success: false, message: 'No IDs provided' });
+        }
+
+        // Delete products by their IDs
+        const deletedCount = await Product.destroy({
+            where: {
+                id: ids
+            }
+        });
+
+        // Return the deleted IDs
+        const deletedRecords = ids.map(id => ({ id }));
+
+        res.status(200).json({
+            success: true,
+            data: deletedRecords
+        });
+    }
+    catch (error) {
+        console.error({ error });
+        res.status(500).json({
+            success: false,
+            message: 'There was an error deleting the products.'
+        });
+    }
+});
+
 app.listen(PORT, async() => {
     await initializeDatabase();
     console.log(`Server running on http://localhost:${PORT}`);
