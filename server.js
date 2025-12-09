@@ -252,7 +252,6 @@ app.patch('/api/update', async(req, res) => {
 
             for (const product of data) {
                 const { id, ...fields } = product;
-                const updated = await Product.findByPk(id, { transaction: t });
 
                 await Product.update(fields, {
                     where: { id },
@@ -260,6 +259,7 @@ app.patch('/api/update', async(req, res) => {
                 });
 
                 // Fetch the updated product to return
+                const updated = await Product.findByPk(id, { transaction: t });
                 results.push(updated);
             }
 
