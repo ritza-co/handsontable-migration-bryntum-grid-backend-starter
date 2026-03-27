@@ -7,7 +7,7 @@
     "orderId": "01-2331942",
     "inStock": true,
     "qty": "172",
-    "index": 0
+    "sparseIndex": 0
   },
   {
     "productName": "Cycling Cap",
@@ -17,7 +17,7 @@
     "orderId": "88-2768633",
     "inStock": true,
     "qty": "188",
-    "index": 1
+    "sparseIndex": 1
   },
   {
     "productName": "Full-Finger Gloves",
@@ -27,7 +27,7 @@
     "orderId": "51-6775945",
     "inStock": true,
     "qty": "162",
-    "index": 2
+    "sparseIndex": 2
   },
   {
     "productName": "HL Mountain Frame",
@@ -37,7 +37,7 @@
     "orderId": "44-4028109",
     "inStock": true,
     "qty": "133",
-    "index": 3
+    "sparseIndex": 3
   },
   {
     "productName": "Half-Finger Gloves",
@@ -47,7 +47,7 @@
     "orderId": "08-2758492",
     "inStock": true,
     "qty": "87",
-    "index": 4
+    "sparseIndex": 4
   },
   {
     "productName": "HL Road Frame",
@@ -57,7 +57,7 @@
     "orderId": "84-3557705",
     "inStock": false,
     "qty": "26",
-    "index": 5
+    "sparseIndex": 5
   },
   {
     "productName": "HL Touring Frame",
@@ -67,7 +67,7 @@
     "orderId": "20-9397637",
     "inStock": false,
     "qty": "110",
-    "index": 6
+    "sparseIndex": 6
   },
   {
     "productName": "LL Mountain Frame",
@@ -77,7 +77,7 @@
     "orderId": "36-0079556",
     "inStock": true,
     "qty": "50",
-    "index": 7
+    "sparseIndex": 7
   },
   {
     "productName": "LL Road Frame",
@@ -87,7 +87,7 @@
     "orderId": "41-1489542",
     "inStock": false,
     "qty": "160",
-    "index": 8
+    "sparseIndex": 8
   },
   {
     "productName": "LL Touring Frame",
@@ -97,7 +97,7 @@
     "orderId": "37-1531629",
     "inStock": true,
     "qty": "30",
-    "index": 9
+    "sparseIndex": 9
   },
   {
     "productName": "Long-Sleeve Logo Jersey",
@@ -107,7 +107,7 @@
     "orderId": "25-5083429",
     "inStock": true,
     "qty": "39",
-    "index": 10
+    "sparseIndex": 10
   },
   {
     "productName": "Men's Bib-Shorts",
@@ -117,7 +117,7 @@
     "orderId": "04-4281278",
     "inStock": false,
     "qty": "96",
-    "index": 11
+    "sparseIndex": 11
   },
   {
     "productName": "Men's Sports Shorts",
@@ -127,7 +127,7 @@
     "orderId": "55-1711908",
     "inStock": true,
     "qty": "108",
-    "index": 12
+    "sparseIndex": 12
   },
   {
     "productName": "ML Mountain Frame",
@@ -137,7 +137,7 @@
     "orderId": "58-8360815",
     "inStock": false,
     "qty": "46",
-    "index": 13
+    "sparseIndex": 13
   },
   {
     "productName": "ML Mountain Frame-W",
@@ -147,7 +147,7 @@
     "orderId": "10-3786104",
     "inStock": true,
     "qty": "97",
-    "index": 14
+    "sparseIndex": 14
   },
   {
     "productName": "ML Road Frame",
@@ -157,7 +157,7 @@
     "orderId": "45-1186054",
     "inStock": true,
     "qty": "161",
-    "index": 15
+    "sparseIndex": 15
   },
   {
     "productName": "ML Road Frame-W",
@@ -167,7 +167,7 @@
     "orderId": "62-6202742",
     "inStock": true,
     "qty": "58",
-    "index": 16
+    "sparseIndex": 16
   },
   {
     "productName": "Mountain Bike Socks",
@@ -177,7 +177,7 @@
     "orderId": "88-9646223",
     "inStock": true,
     "qty": "92",
-    "index": 17
+    "sparseIndex": 17
   },
   {
     "productName": "Mountain-100",
@@ -187,7 +187,7 @@
     "orderId": "45-5588112",
     "inStock": true,
     "qty": "5",
-    "index": 18
+    "sparseIndex": 18
   },
   {
     "productName": "Mountain-200",
@@ -197,7 +197,7 @@
     "orderId": "66-6271819",
     "inStock": true,
     "qty": "158",
-    "index": 19
+    "sparseIndex": 19
   },
   {
     "productName": "Mountain-300",
@@ -207,7 +207,7 @@
     "orderId": "38-9245023",
     "inStock": false,
     "qty": "121",
-    "index": 20
+    "sparseIndex": 20
   },
   {
     "productName": "Mountain-400-W",
@@ -217,7 +217,7 @@
     "orderId": "44-5916927",
     "inStock": false,
     "qty": "61",
-    "index": 21
+    "sparseIndex": 21
   },
   {
     "productName": "Mountain-500",
@@ -227,7 +227,7 @@
     "orderId": "31-5449914",
     "inStock": true,
     "qty": "155",
-    "index": 22
+    "sparseIndex": 22
   },
   {
     "productName": "Racing Socks",
@@ -237,7 +237,7 @@
     "orderId": "19-9413869",
     "inStock": true,
     "qty": "162",
-    "index": 23
+    "sparseIndex": 23
   },
   {
     "productName": "Road-150",
@@ -247,7 +247,7 @@
     "orderId": "25-9807605",
     "inStock": false,
     "qty": "46",
-    "index": 24
+    "sparseIndex": 24
   },
   {
     "productName": "Road-250",
@@ -257,7 +257,7 @@
     "orderId": "74-4291983",
     "inStock": true,
     "qty": "47",
-    "index": 25
+    "sparseIndex": 25
   },
   {
     "productName": "Road-350-W",
@@ -267,7 +267,7 @@
     "orderId": "83-0980643",
     "inStock": true,
     "qty": "104",
-    "index": 26
+    "sparseIndex": 26
   },
   {
     "productName": "Road-450",
@@ -277,7 +277,7 @@
     "orderId": "19-2878430",
     "inStock": true,
     "qty": "101",
-    "index": 27
+    "sparseIndex": 27
   },
   {
     "productName": "Road-550-W",
@@ -287,7 +287,7 @@
     "orderId": "19-1838230",
     "inStock": true,
     "qty": "150",
-    "index": 28
+    "sparseIndex": 28
   },
   {
     "productName": "Road-650",
@@ -297,7 +297,7 @@
     "orderId": "32-2267938",
     "inStock": true,
     "qty": "42",
-    "index": 29
+    "sparseIndex": 29
   },
   {
     "productName": "Road-750",
@@ -307,7 +307,7 @@
     "orderId": "79-2821972",
     "inStock": true,
     "qty": "144",
-    "index": 30
+    "sparseIndex": 30
   },
   {
     "productName": "Short-Sleeve Classic Jersey",
@@ -317,7 +317,7 @@
     "orderId": "46-6597557",
     "inStock": true,
     "qty": "195",
-    "index": 31
+    "sparseIndex": 31
   },
   {
     "productName": "Sport-100",
@@ -327,7 +327,7 @@
     "orderId": "15-1793960",
     "inStock": true,
     "qty": "199",
-    "index": 32
+    "sparseIndex": 32
   },
   {
     "productName": "Touring-1000",
@@ -337,7 +337,7 @@
     "orderId": "86-0811003",
     "inStock": true,
     "qty": "110",
-    "index": 33
+    "sparseIndex": 33
   },
   {
     "productName": "Touring-2000",
@@ -347,7 +347,7 @@
     "orderId": "95-3068680",
     "inStock": true,
     "qty": "51",
-    "index": 34
+    "sparseIndex": 34
   },
   {
     "productName": "Touring-3000",
@@ -357,7 +357,7 @@
     "orderId": "35-3085360",
     "inStock": false,
     "qty": "69",
-    "index": 35
+    "sparseIndex": 35
   },
   {
     "productName": "Women's Mountain Shorts",
@@ -367,7 +367,7 @@
     "orderId": "56-8673088",
     "inStock": false,
     "qty": "53",
-    "index": 36
+    "sparseIndex": 36
   },
   {
     "productName": "Women's Tights",
@@ -377,7 +377,7 @@
     "orderId": "76-0085918",
     "inStock": true,
     "qty": "168",
-    "index": 37
+    "sparseIndex": 37
   },
   {
     "productName": "Mountain-400",
@@ -387,7 +387,7 @@
     "orderId": "03-0893276",
     "inStock": false,
     "qty": "58",
-    "index": 38
+    "sparseIndex": 38
   },
   {
     "productName": "Road-550",
@@ -397,7 +397,7 @@
     "orderId": "79-9013306",
     "inStock": true,
     "qty": "152",
-    "index": 39
+    "sparseIndex": 39
   },
   {
     "productName": "Road-350",
@@ -407,7 +407,7 @@
     "orderId": "55-7799920",
     "inStock": true,
     "qty": "66",
-    "index": 40
+    "sparseIndex": 40
   },
   {
     "productName": "LL Mountain Front Wheel",
@@ -417,7 +417,7 @@
     "orderId": "07-0881122",
     "inStock": false,
     "qty": "112",
-    "index": 41
+    "sparseIndex": 41
   },
   {
     "productName": "Touring Rear Wheel",
@@ -427,7 +427,7 @@
     "orderId": "58-6157387",
     "inStock": true,
     "qty": "50",
-    "index": 42
+    "sparseIndex": 42
   },
   {
     "productName": "Touring Front Wheel",
@@ -437,7 +437,7 @@
     "orderId": "12-2810010",
     "inStock": false,
     "qty": "31",
-    "index": 43
+    "sparseIndex": 43
   },
   {
     "productName": "ML Mountain Front Wheel",
@@ -447,7 +447,7 @@
     "orderId": "64-9249984",
     "inStock": true,
     "qty": "132",
-    "index": 44
+    "sparseIndex": 44
   },
   {
     "productName": "HL Mountain Front Wheel",
@@ -457,7 +457,7 @@
     "orderId": "45-0739652",
     "inStock": true,
     "qty": "45",
-    "index": 45
+    "sparseIndex": 45
   },
   {
     "productName": "LL Touring Handlebars",
@@ -467,7 +467,7 @@
     "orderId": "09-5712761",
     "inStock": true,
     "qty": "197",
-    "index": 46
+    "sparseIndex": 46
   },
   {
     "productName": "HL Touring Handlebars",
@@ -477,7 +477,7 @@
     "orderId": "01-7345008",
     "inStock": true,
     "qty": "190",
-    "index": 47
+    "sparseIndex": 47
   },
   {
     "productName": "LL Road Front Wheel",
@@ -487,7 +487,7 @@
     "orderId": "62-1065350",
     "inStock": true,
     "qty": "184",
-    "index": 48
+    "sparseIndex": 48
   },
   {
     "productName": "ML Road Front Wheel",
@@ -497,7 +497,7 @@
     "orderId": "44-7241323",
     "inStock": true,
     "qty": "169",
-    "index": 49
+    "sparseIndex": 49
   },
   {
     "productName": "HL Road Front Wheel",
@@ -507,7 +507,7 @@
     "orderId": "52-0295699",
     "inStock": false,
     "qty": "152",
-    "index": 50
+    "sparseIndex": 50
   },
   {
     "productName": "LL Mountain Handlebars",
@@ -517,7 +517,7 @@
     "orderId": "52-2650922",
     "inStock": false,
     "qty": "182",
-    "index": 51
+    "sparseIndex": 51
   },
   {
     "productName": "Touring Pedal",
@@ -527,7 +527,7 @@
     "orderId": "48-3618525",
     "inStock": true,
     "qty": "141",
-    "index": 52
+    "sparseIndex": 52
   },
   {
     "productName": "ML Mountain Handlebars",
@@ -537,7 +537,7 @@
     "orderId": "51-8893923",
     "inStock": true,
     "qty": "169",
-    "index": 53
+    "sparseIndex": 53
   },
   {
     "productName": "HL Mountain Handlebars",
@@ -547,7 +547,7 @@
     "orderId": "68-5911361",
     "inStock": false,
     "qty": "39",
-    "index": 54
+    "sparseIndex": 54
   },
   {
     "productName": "LL Road Handlebars",
@@ -557,7 +557,7 @@
     "orderId": "41-5880042",
     "inStock": true,
     "qty": "71",
-    "index": 55
+    "sparseIndex": 55
   },
   {
     "productName": "ML Road Handlebars",
@@ -567,7 +567,7 @@
     "orderId": "90-5913983",
     "inStock": true,
     "qty": "148",
-    "index": 56
+    "sparseIndex": 56
   },
   {
     "productName": "HL Road Handlebars",
@@ -577,7 +577,7 @@
     "orderId": "92-0960699",
     "inStock": true,
     "qty": "116",
-    "index": 57
+    "sparseIndex": 57
   },
   {
     "productName": "LL Headset",
@@ -587,7 +587,7 @@
     "orderId": "06-9493898",
     "inStock": true,
     "qty": "96",
-    "index": 58
+    "sparseIndex": 58
   },
   {
     "productName": "ML Headset",
@@ -597,7 +597,7 @@
     "orderId": "69-5878565",
     "inStock": true,
     "qty": "35",
-    "index": 59
+    "sparseIndex": 59
   },
   {
     "productName": "HL Headset",
@@ -607,7 +607,7 @@
     "orderId": "13-1133017",
     "inStock": true,
     "qty": "16",
-    "index": 60
+    "sparseIndex": 60
   },
   {
     "productName": "LL Mountain Pedal",
@@ -617,7 +617,7 @@
     "orderId": "39-6530433",
     "inStock": true,
     "qty": "194",
-    "index": 61
+    "sparseIndex": 61
   },
   {
     "productName": "ML Mountain Pedal",
@@ -627,7 +627,7 @@
     "orderId": "96-6860388",
     "inStock": true,
     "qty": "24",
-    "index": 62
+    "sparseIndex": 62
   },
   {
     "productName": "HL Mountain Pedal",
@@ -637,7 +637,7 @@
     "orderId": "30-0356137",
     "inStock": true,
     "qty": "170",
-    "index": 63
+    "sparseIndex": 63
   },
   {
     "productName": "ML Touring Seat/Saddle",
@@ -647,7 +647,7 @@
     "orderId": "93-9058255",
     "inStock": true,
     "qty": "184",
-    "index": 64
+    "sparseIndex": 64
   },
   {
     "productName": "LL Touring Seat/Saddle",
@@ -657,7 +657,7 @@
     "orderId": "82-9268909",
     "inStock": false,
     "qty": "153",
-    "index": 65
+    "sparseIndex": 65
   },
   {
     "productName": "HL Touring Seat/Saddle",
@@ -667,7 +667,7 @@
     "orderId": "20-6913815",
     "inStock": false,
     "qty": "88",
-    "index": 66
+    "sparseIndex": 66
   },
   {
     "productName": "LL Road Pedal",
@@ -677,7 +677,7 @@
     "orderId": "08-8238817",
     "inStock": true,
     "qty": "57",
-    "index": 67
+    "sparseIndex": 67
   },
   {
     "productName": "ML Road Pedal",
@@ -687,7 +687,7 @@
     "orderId": "44-7370350",
     "inStock": false,
     "qty": "62",
-    "index": 68
+    "sparseIndex": 68
   },
   {
     "productName": "HL Road Pedal",
@@ -697,7 +697,7 @@
     "orderId": "01-3525949",
     "inStock": true,
     "qty": "123",
-    "index": 69
+    "sparseIndex": 69
   },
   {
     "productName": "LL Mountain Seat/Saddle 1",
@@ -707,7 +707,7 @@
     "orderId": "04-2414623",
     "inStock": true,
     "qty": "77",
-    "index": 70
+    "sparseIndex": 70
   },
   {
     "productName": "ML Mountain Seat/Saddle 1",
@@ -717,7 +717,7 @@
     "orderId": "15-1917509",
     "inStock": false,
     "qty": "199",
-    "index": 71
+    "sparseIndex": 71
   },
   {
     "productName": "HL Mountain Seat/Saddle 1",
@@ -727,7 +727,7 @@
     "orderId": "06-2526845",
     "inStock": true,
     "qty": "149",
-    "index": 72
+    "sparseIndex": 72
   },
   {
     "productName": "425-777-7829",
@@ -737,7 +737,7 @@
     "orderId": "83-1713558",
     "inStock": false,
     "qty": "191",
-    "index": 73
+    "sparseIndex": 73
   },
   {
     "productName": "ML Road Seat/Saddle 1",
@@ -747,7 +747,7 @@
     "orderId": "00-8892524",
     "inStock": true,
     "qty": "150",
-    "index": 74
+    "sparseIndex": 74
   },
   {
     "productName": "HL Road Seat/Saddle 1",
@@ -757,7 +757,7 @@
     "orderId": "39-5538991",
     "inStock": true,
     "qty": "130",
-    "index": 75
+    "sparseIndex": 75
   },
   {
     "productName": "ML Road Rear Wheel",
@@ -767,7 +767,7 @@
     "orderId": "06-9002973",
     "inStock": true,
     "qty": "179",
-    "index": 76
+    "sparseIndex": 76
   },
   {
     "productName": "HL Road Rear Wheel",
@@ -777,7 +777,7 @@
     "orderId": "73-6104901",
     "inStock": true,
     "qty": "98",
-    "index": 77
+    "sparseIndex": 77
   },
   {
     "productName": "LL Mountain Seat/Saddle 2",
@@ -787,7 +787,7 @@
     "orderId": "68-7384479",
     "inStock": true,
     "qty": "175",
-    "index": 78
+    "sparseIndex": 78
   },
   {
     "productName": "ML Mountain Seat/Saddle 2",
@@ -797,7 +797,7 @@
     "orderId": "26-7757763",
     "inStock": true,
     "qty": "11",
-    "index": 79
+    "sparseIndex": 79
   },
   {
     "productName": "HL Mountain Seat/Saddle 2",
@@ -807,7 +807,7 @@
     "orderId": "07-4873562",
     "inStock": false,
     "qty": "184",
-    "index": 80
+    "sparseIndex": 80
   },
   {
     "productName": "LL Road Seat/Saddle 1",
@@ -817,7 +817,7 @@
     "orderId": "46-5819554",
     "inStock": false,
     "qty": "27",
-    "index": 81
+    "sparseIndex": 81
   },
   {
     "productName": "ML Road Seat/Saddle 2",
@@ -827,7 +827,7 @@
     "orderId": "01-2666826",
     "inStock": true,
     "qty": "186",
-    "index": 82
+    "sparseIndex": 82
   },
   {
     "productName": "HL Road Seat/Saddle 2",
@@ -837,7 +837,7 @@
     "orderId": "54-7090503",
     "inStock": true,
     "qty": "20",
-    "index": 83
+    "sparseIndex": 83
   },
   {
     "productName": "LL Mountain Tire",
@@ -847,7 +847,7 @@
     "orderId": "78-7658520",
     "inStock": false,
     "qty": "153",
-    "index": 84
+    "sparseIndex": 84
   },
   {
     "productName": "ML Mountain Tire",
@@ -857,7 +857,7 @@
     "orderId": "23-9926318",
     "inStock": true,
     "qty": "161",
-      "index": 85
+      "sparseIndex": 85
   },
   {
     "productName": "HL Mountain Tire",
@@ -867,7 +867,7 @@
     "orderId": "20-0179517",
     "inStock": true,
     "qty": "98",
-    "index": 86
+    "sparseIndex": 86
   },
   {
     "productName": "LL Road Tire",
@@ -877,7 +877,7 @@
     "orderId": "02-9543343",
     "inStock": true,
     "qty": "30",
-    "index": 87
+    "sparseIndex": 87
   },
   {
     "productName": "ML Road Tire",
@@ -887,7 +887,7 @@
     "orderId": "98-3938169",
     "inStock": true,
     "qty": "73",
-    "index": 88
+    "sparseIndex": 88
   },
   {
     "productName": "HL Road Tire",
@@ -897,7 +897,7 @@
     "orderId": "68-5197934",
     "inStock": true,
     "qty": "158",
-    "index": 89
+    "sparseIndex": 89
   },
   {
     "productName": "Touring Tire",
@@ -907,7 +907,7 @@
     "orderId": "39-8260460",
     "inStock": true,
     "qty": "122",
-    "index": 90
+    "sparseIndex": 90
   },
   {
     "productName": "Mountain Tire Tube",
@@ -917,7 +917,7 @@
     "orderId": "45-9776170",
     "inStock": true,
     "qty": "33",
-    "index": 91
+    "sparseIndex": 91
   },
   {
     "productName": "Road Tire Tube",
@@ -927,7 +927,7 @@
     "orderId": "45-0858451",
     "inStock": true,
     "qty": "107",
-    "index": 92
+    "sparseIndex": 92
   },
   {
     "productName": "Touring Tire Tube",
@@ -937,7 +937,7 @@
     "orderId": "15-4247305",
     "inStock": true,
     "qty": "15",
-    "index": 93
+    "sparseIndex": 93
   },
   {
     "productName": "LL Bottom Bracket",
@@ -947,7 +947,7 @@
     "orderId": "15-8534931",
     "inStock": true,
     "qty": "168",
-    "index": 94
+    "sparseIndex": 94
   },
   {
     "productName": "Classic Vest",
@@ -957,7 +957,7 @@
     "orderId": "23-1251557",
     "inStock": true,
     "qty": "135",
-    "index": 95
+    "sparseIndex": 95
   },
   {
     "productName": "Cycling Cap",
@@ -967,7 +967,7 @@
     "orderId": "86-5920601",
     "inStock": true,
     "qty": "11",
-    "index": 96
+    "sparseIndex": 96
   },
   {
     "productName": "Full-Finger Gloves",
@@ -977,7 +977,7 @@
     "orderId": "48-1055459",
     "inStock": true,
     "qty": "41",
-      "index": 97
+      "sparseIndex": 97
   },
   {
     "productName": "Half-Finger Gloves",
@@ -987,7 +987,7 @@
     "orderId": "12-7842022",
     "inStock": true,
     "qty": "144",
-    "index": 98
+    "sparseIndex": 98
   },
   {
     "productName": "HL Mountain Frame",
@@ -997,6 +997,6 @@
     "orderId": "94-5088099",
     "inStock": true,
     "qty": "106",
-    "index": 99
+    "sparseIndex": 99
   }
 ]

@@ -7,9 +7,9 @@ const Product = sequelize.define('Product', {
         primaryKey: true,
         autoIncrement: true
     },
-    index: {
-        type: DataTypes.INTEGER,
-        allowNull: false
+    sparseIndex: {
+        type: DataTypes.FLOAT,
+        allowNull: true
     },
     companyName: {
         type: DataTypes.STRING,
